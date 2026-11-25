@@ -51,7 +51,7 @@ document.getElementById('copy-email')?.addEventListener('click', async () => {
 // The PDF is included under Resume/; do not cancel the native download click.
 const resumeLink = document.getElementById('resume-link');
 if (resumeLink) {
-  resumeLink.href = './Resume/DURGA_SISINDRI.pdf';
+  resumeLink.href = './Resume/NAKKA_DURGA_SISINDRI.pdf';
   resumeLink.setAttribute('download', 'DURGA_SISINDRI.pdf');
 }
 
